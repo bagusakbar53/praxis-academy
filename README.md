@@ -1,2 +1,1 @@
-# praxis-academy
-MAGANG
+# PraxisAcademy

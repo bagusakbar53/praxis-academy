@@ -1,0 +1,23 @@
+<html>
+    <head> Celcius to fahrenheit</head>
+    <body>
+        <input type='number' placeholder='Enter Value Celsius' id='celsius'/>
+        <p/>
+        <input type='number' placeholder='Fahrenheit is' id='fahrenheit' disabled/>
+    <input type='button' onClick='celsiusToFahrenheit(celsius)' />
+    </body>
+    <script>
+
+      var cel=document.getElementById('celsius')
+      var far=document.getElementById('fahrenheit')
+function celsiusToFahrenheit(celsius) {
+    var celsiusInF = (celsius*9)/5 + 32;
+    console.log(celsius + '°C is ' + celsiusInF + '°F');
+  }
+  
+  function fahrenheitToCelsius(fahrenheit) {
+    var fahrenheitInC = ((fahrenheit - 32)*5)/9;
+    console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C');
+  }
+  </script>
+  </html>
